@@ -4,7 +4,7 @@
   "homepage": "https://github.com/paxel/dedup-rs",
   "license": "MIT",
   "url": "https://github.com/paxel/dedup-rs/releases/download/v0.1.2/dedup-0.1.2-windows-x86_64.zip",
-  "hash": "de4bd674585107514854478d9b90954a74c7ae5b73c3faaea9e0568a5268f227",
+  "hash": "2d50b5ab8b1819676a0e87602f2d4065d38c3229f1d4c332482a7d3efd5cd9d8",
   "bin": [
     "dedup.exe",
     "dedup-gui.exe"
