@@ -1,10 +1,10 @@
 {
-    "version": "0.1.4",
+    "version": "0.2.0",
     "description": "Local-first catalog for foster cats - no server, no account",
     "homepage": "https://github.com/paxel/catlog",
     "license": "Apache-2.0 OR MIT",
-    "url": "https://github.com/paxel/catlog/releases/download/v0.1.4/catlog-0.1.4-windows-x86_64.zip",
-    "hash": "36cd06c894e6e806a604bd8de0412c3be2161b7d7e1dec616fdd58cd330b8bc9",
+    "url": "https://github.com/paxel/catlog/releases/download/v0.2.0/catlog-0.2.0-windows-x86_64.zip",
+    "hash": "f30adf2be2486d8c8cc6a82283eb99138e6dce90181e1f82b2d30e2422101358",
     "bin": "catlog.exe",
     "shortcuts": [
         [
@@ -12,6 +12,17 @@
             "cat(a)log"
         ]
     ],
+    "post_install": [
+        "reg add 'HKCU\\Software\\Classes\\.catsync' /ve /d 'catlog.catsync' /f | Out-Null",
+        "reg add 'HKCU\\Software\\Classes\\catlog.catsync' /ve /d 'cat(a)log bundle' /f | Out-Null",
+        "reg add 'HKCU\\Software\\Classes\\catlog.catsync\\shell\\open\\command' /ve /d \"\"\"$dir\\catlog.exe\"\" \"\"%1\"\"\" /f | Out-Null"
+    ],
+    "uninstaller": {
+        "script": [
+            "reg delete 'HKCU\\Software\\Classes\\.catsync' /f 2>$null | Out-Null",
+            "reg delete 'HKCU\\Software\\Classes\\catlog.catsync' /f 2>$null | Out-Null"
+        ]
+    },
     "checkver": {
         "github": "https://github.com/paxel/catlog"
     },
