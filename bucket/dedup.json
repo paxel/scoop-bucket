@@ -1,10 +1,10 @@
 {
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Forensic data-inheritance triage: dedupe, diff and browse file piles (CLI + desktop app)",
   "homepage": "https://github.com/paxel/dedup-rs",
   "license": "MIT",
-  "url": "https://github.com/paxel/dedup-rs/releases/download/v0.4.0/dedup-0.4.0-windows-x86_64.zip",
-  "hash": "bb3c6ec9d5683eeffa310aafd5ef679072461f8534767371865aec9f711ab121",
+  "url": "https://github.com/paxel/dedup-rs/releases/download/v0.5.0/dedup-0.5.0-windows-x86_64.zip",
+  "hash": "b69b47c0c3f8c86882aca67c204f9e275164226d3d9a6ce4806aa52f0b465880",
   "bin": [
     "dedup.exe",
     "dedup-gui.exe"
