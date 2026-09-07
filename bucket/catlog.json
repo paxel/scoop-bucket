@@ -1,10 +1,10 @@
 {
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "Local-first catalog for foster cats - no server, no account",
     "homepage": "https://github.com/paxel/catlog",
     "license": "Apache-2.0 OR MIT",
-    "url": "https://github.com/paxel/catlog/releases/download/v1.2.0/catlog-1.2.0-windows-x86_64.zip",
-    "hash": "98b19582c06ba4585f03ecff3eee462df42ade4aa358f6530b2a4e8ec5fcc736",
+    "url": "https://github.com/paxel/catlog/releases/download/v1.2.1/catlog-1.2.1-windows-x86_64.zip",
+    "hash": "3bd434a8efda59e474871ce1eb7d5d086a1847bbb455302d950d06d988863ed2",
     "bin": "catlog.exe",
     "shortcuts": [
         [
