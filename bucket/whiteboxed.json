@@ -1,10 +1,10 @@
 {
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "WYSIWYG editor for arc42 building-block views",
   "homepage": "https://github.com/paxel/whiteboxed",
   "license": "MIT",
-  "url": "https://github.com/paxel/whiteboxed/releases/download/v0.6.1/whiteboxed-0.6.1-windows-x86_64.zip",
-  "hash": "e577c5aa8f6e9fd54868aa06bc8ec77846c2c32798583c29631201c8f486e87a",
+  "url": "https://github.com/paxel/whiteboxed/releases/download/v0.6.2/whiteboxed-0.6.2-windows-x86_64.zip",
+  "hash": "cc516bc612fdaf6ae7ed443d848cec386afc7c6abcb2f3c7b909e66234e17f19",
   "bin": "whiteboxed.exe",
   "shortcuts": [
     [
