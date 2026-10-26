@@ -4,7 +4,7 @@
     "homepage": "https://github.com/paxel/oldbrainfix",
     "license": "MIT OR Apache-2.0",
     "url": "https://github.com/paxel/oldbrainfix/releases/download/v0.1.0/oldbrainfix-0.1.0-windows-x86_64.zip",
-    "hash": "3cf9675968da49266b05a0f59c3bef05f4822795f918f202b177f2dfc6c216f6",
+    "hash": "769a101f254102a503e01ae6023b8970c994aac29443121152baa735ae2e7487",
     "bin": "oldbrainfix.exe",
     "shortcuts": [
         [
