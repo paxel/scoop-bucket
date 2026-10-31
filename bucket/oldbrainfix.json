@@ -1,10 +1,10 @@
 {
-    "version": "0.1.1",
-    "description": "Capture a thought in one tap, get nagged until it is sorted or done",
+    "version": "0.2.0",
+    "description": "Capture a thought in seconds, get nagged until it is sorted or done",
     "homepage": "https://github.com/paxel/oldbrainfix",
     "license": "MIT OR Apache-2.0",
-    "url": "https://github.com/paxel/oldbrainfix/releases/download/v0.1.1/oldbrainfix-0.1.1-windows-x86_64.zip",
-    "hash": "ef12f0e44fbc833e34e705e518501f7f1a408e0ed9a1d4c71eaa6dd0c79de20d",
+    "url": "https://github.com/paxel/oldbrainfix/releases/download/v0.2.0/oldbrainfix-0.2.0-windows-x86_64.zip",
+    "hash": "9e2501470a29c93d00343dfd36633e8008d438fb136614015d24d428d4e68769",
     "bin": "oldbrainfix.exe",
     "shortcuts": [
         [
