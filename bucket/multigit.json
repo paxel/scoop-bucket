@@ -1,0 +1,26 @@
+{
+    "version": "0.6.0",
+    "description": "Desktop dashboard for many git repositories",
+    "homepage": "https://github.com/paxel/multigit",
+    "license": "MIT",
+    "suggest": {
+        "Git": "git"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/paxel/multigit/releases/download/v0.6.0/multigit-0.6.0-x86_64-windows.zip",
+            "hash": "d45a2a86308ee0b2f0514e3bebbdec428b99932a52129d5f8c7b82cc6acafaa0",
+            "extract_dir": "multigit-0.6.0-x86_64-windows"
+        }
+    },
+    "bin": [
+        "multigit.exe",
+        "multigit-tui.exe"
+    ],
+    "shortcuts": [
+        [
+            "multigit.exe",
+            "multigit"
+        ]
+    ]
+}
